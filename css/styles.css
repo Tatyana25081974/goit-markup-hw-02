@@ -9,89 +9,54 @@ a {
 ul,ol {
     list-style: none;
     }
-nav {
+.page-header {
     background-color: #fff;;
     width: 1440px;
     height: 72px;
 }
 .logo {
-          font-family: "Raleway", sans-serif;
-          display: flex;
-          align-items: center;
-          justify-content: flex-start;
-           flex-direction: row;
-           gap: 0px;
-          width: 115px;
-           height: 24px;
+    font-family: "Raleway", sans-serif;
+    width: 115px;
+    height: 24px;
 }
-.logo .web {
-            font-family: "Raleway", sans-serif;
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 1.16667;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: #4d5ae5;
-            } 
-.logo .studio {
-            font-family: "Raleway", sans-serif;
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 1.16667;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: #2e2f42;
-           } 
-    .Navigation-menu {
-            display: flex;
-            align-items: flex-start;
-            justify-content: flex-start;
-            flex-direction: row;
-            gap: 40px;
-            width: 261px;
-            height: 24px
+.web {
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      color: #4d5ae5;
+      } 
+.studio {
+         font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        color: #2e2f42;
+        } 
+.page-nav {
+        width: 261px;
+        height: 24px
            }    
-.Navigation-menu a {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.page-nav .link {
+       font-family: "Roboto", sans-serif;
+       font-weight: 500;
+       color: #2e2f42;
 }
-
-
-<!-- Стилізація списку ul всередині address-->
-address ul {
-    list-style-type: none;
-    /* Видалення маркерів списку */
-    padding: 0;
-    /* Видалення відступів */
-    margin: 0;
-    /* Видалення зовнішніх відступів */
+.page-nav .link:focus {
+      color: orange;
 }
-
-/* Стилізація елементів списку li */
-address li {
-    margin-bottom: 10px;
-    /* Відступ між елементами списку */
-}
-
-/* Стилізація посилань a */
-address a {
+.address-page .link {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-            }
-     /* Стилізація посилань a при наведенні */
-        address a:hover {
-            text-decoration: underline;
-            /* Підкреслення при наведенні */
-        }
+    color: #434455;
+}
+.address-page .link:hover,
+.address-page .link:focus {
+    color: orange;
+}
 
 
-    
+
+
+
+
+
+
+
     
