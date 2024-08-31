@@ -109,8 +109,7 @@ ul,ol {
 }
 <!--Команда-->
 .section-team {
-  
-    background-color: #F4F4FD;
+     background-color: #f4f4fd;
 }
 .team-item {
     background-color: #FFFFFF;
@@ -185,15 +184,15 @@ ul,ol {
 <!--footer-->
 .footer {
     
-    background: #2e2f42;
+    background-color: #2e2f42;
 }
 
 
-.studion-footer {
+.studio-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-     line-height: 1.16667;
+     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
