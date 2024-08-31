@@ -16,7 +16,7 @@ ul,ol {
 }
 .logo {
     font-family: "Raleway", sans-serif;
-    font-weight: 700
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -24,7 +24,7 @@ ul,ol {
     color: #4d5ae5;
     }
 
-.studion {
+.studio-header {
         
         color: #2e2f42;
         } 
@@ -38,8 +38,8 @@ ul,ol {
         letter-spacing: 0.02em;
         color: #2e2f42;
     }
-.nav-link .link:hover,
-.nav-link .link:focus {
+.nav-link:hover,
+.nav-link:focus {
       color: #404bbf;
 }
 .contacts-link {
@@ -54,14 +54,16 @@ ul,ol {
 .Contacts .contacts-link:focus {
     color: #404bbf;
 }
+.Contacts {
+    font-style: normal;
+}
 
 
 < !-- Унікальний контент сторінки -->
 .section-content {
-   
-    background: #2e2f42;
+    background-color: #2e2f42;
 }
-h1 {
+.content-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -114,7 +116,10 @@ h1 {
 < !--Команда-->
 .section-team {
   
-    background: #f4f4fd;
+    background-color: #F4F4FD;
+}
+.team-item {
+    background-color: #FFFFFF;
 }
 .team-title {
     font-family: "Roboto", sans-serif;
