@@ -10,58 +10,41 @@ ul,ol {
     list-style: none;
     }
 .page-header {
-    background-color: #fff;;
-    width: 1440px;
-    height: 72px;
+    background-color: #fff;
+
+    
 }
 .logo {
     font-family: "Raleway", sans-serif;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 0px;
-    width: 115px;
-    height: 24px;
-}
-.web {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
+    font-weight: 700
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-      } 
+    }
+
 .studion {
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+        
         color: #2e2f42;
         } 
-.page-nav {
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: row;
-        gap: 40px;
-        width: 261px;
+.nav-list {
+       width: 261px;
         height: 24px
            }    
-.page-nav .link {
+.nav-link {
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+    }
+.nav-link .link:hover,
+.nav-link .link:focus {
+      color: #404bbf;
 }
-.page-nav .link:focus {
-      color: rgb(255, 0, 25);
-}
-.Contacts .contacts-link {
+.contacts-link {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -71,10 +54,12 @@ ul,ol {
 }
 .Contacts .contacts-link:hover,
 .Contacts .contacts-link:focus {
-    color: rgb(255, 0, 25);
+    color: #404bbf;
 }
 
-.section-1 {
+
+< !-- Унікальний контент сторінки -->
+.section-content {
     width: 1440px;
     height:  600px;
     background: #2e2f42;
@@ -83,40 +68,40 @@ h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
-.section-1 .button {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 4px;
-    padding: 16px 32px;
+
+.button {
     width: 169px;
     height: 56px;
     background: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+}
+.button:hover,
+.button:focus {
+   background-color: #404BBF;
+}
+
+< !--Особливості-->
+
+
+.peculiarities-title {
+    display: none;
 }
 .peculiarities-list {
     width: 1128px;
     height: 104px;
 }
-.section-2 h2 {
-    display: none;
-}
-.peculiarities-item {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 8px;
-    width: 264px;
-    height: 104px;
-}
-.section-2 h3 {
+.peculiarities-subtitle {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -132,48 +117,39 @@ h1 {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.section-3 {
+< !--Команда-->
+.section-team {
     width: 1440px;
     height: 732px;
     background: #f4f4fd;
 }
-.section-3 h2 {
+.team-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
-.team-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 32px;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
+.team-list {
     width: 264px;
     height: 380px;
-    background: #fff;
 }
-.explanation {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 8px;
+.team-div {
     width: 232px;
     height: 56px;
+    
 }
-.explanation  h3 {
+.team-subtitle {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 
 }
@@ -186,43 +162,39 @@ h1 {
     text-align: center;
     color: #434455;
 }
-.team-foto {
-    width: 264px;
-    height: 260px;
-    background: url("path_to_image");
+.section-portfolio {
+    width: 1128px;
+    height: 1000px;
+}
+.porfolio-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
 }
 .portfolio-item {
     width: 360px;
     height: 420px;
     background: #fff;
 }
-.portfolio-foto {
-    width: 360px;
-    height: 300px;
-    background: url("path_to_image")
-}
-.div {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    gap: 8px;
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
-    padding: 32px 16px;
+.portfolio-div {
     width: 360px;
     height: 120px;
 }
-.div h3 {
+.portfolio-subtitle {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-transform: capitalize;
 }
-.text-div {
+.portfolio-text {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -230,6 +202,8 @@ h1 {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+<!--footer-->
 .footer {
     width: 1440px;
     height: 312px;
@@ -239,24 +213,7 @@ h1 {
     width: 264px;
     height: 112px;
 }
-.footer-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-}
-.div-footer .Web {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-     color: #4d5ae5;
-}
-.div-footer .studion {
+.studion-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -264,15 +221,15 @@ h1 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
-
 }
-
-
-
-
-
-
-
-
-
+.footer-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+        color: #f4f4fd;
+    }
+   
     
+
