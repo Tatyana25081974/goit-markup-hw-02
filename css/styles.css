@@ -50,11 +50,11 @@ ul,ol {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.Contacts .contacts-link:hover,
-.Contacts .contacts-link:focus {
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
     color: #404bbf;
 }
-.Contacts {
+.contacts {
     font-style: normal;
 }
 
